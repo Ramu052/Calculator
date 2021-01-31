@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./Cal.css">
+<body>
+    <div class="calc-container">
+        <h1>Calculator</h1>
+        <form name="form">
+            <input type="text" class="calc-input" name="textview">
+        </form>
+
+        <button class="calc-btn" onclick="insert(1)">1</button>
+        <button class="calc-btn" onclick="insert(2)">2</button>
+        <button class="calc-btn" onclick="insert(3)">3</button>
+        <button class="calc-btn" onclick="insert('/')">/</button>
+        <br>
+        <button class="calc-btn" onclick="insert(4)">4</button>
+        <button class="calc-btn" onclick="insert(5)">5</button>
+        <button class="calc-btn" onclick="insert(6)">6</button> 
+        <button class="calc-btn"onclick="insert('*')">*</button>
+        <br>
+        <button class="calc-btn" onclick="insert(7)">7</button>
+        <button class="calc-btn" onclick="insert(8)">8</button>
+        <button class="calc-btn" onclick="insert(9)">9</button>
+        <button class="calc-btn" onclick="insert('-')">-</button>
+        <br>
+        <button class="calc-btn" onclick="insert(0)">0</button>
+        <button class="calc-btn" onclick="insert('.')">.</button>
+        <button class="calc-btn" onclick="clean()">C</button>
+        <button class="calc-btn" onclick="insert('+')">+</button>
+        <br>
+        <button class="equal-btn" onclick="equal()">=</button>
+        
+            
+            
+        
+
+    </div>
+    
+    <script src="./Cal.js"></script>
+    
+</body>
+</html>

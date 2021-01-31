@@ -1,0 +1,39 @@
+.calc-container{
+     margin:auto;
+     border: 2px solid black;
+     background-color: cadetblue;
+     padding: 5px;
+     width: 50%;
+     text-align: center;
+     color: white;
+     height: 500px;
+}
+.calc-input{
+    margin:5px;
+    font-size: 30px;
+    font-size: bolder;
+     padding: 10px;
+     width: 34%;
+     height: 40px;
+
+}
+.calc-btn{
+    margin:5px;
+    font-size: 30px;
+    font-size: bolder;
+     padding: 10px;
+     width: 50px;
+     height: 50px;
+     cursor: pointer;
+
+}
+.equal-btn{
+
+    margin:5px;
+    font-size: 30px;
+    font-size: bolder;
+     padding: 10px;
+     width: 240px;
+     height: 50px;
+     cursor: pointer;
+}
